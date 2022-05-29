@@ -4,7 +4,7 @@
 ### 📚 Selected Problem Statement
 Develop a browser-based application or a native mobile application to demonstrate application of Face Recognition technology.
 
-##How to Use
+## How to Use
 
 **clone the repository:()**
 
@@ -26,6 +26,7 @@ This will run app in development mode.
 ## 📜 Note:
 
 - Remember to allow **permission** for camera in the browser and refresh.
+- TestImages are given in a folder in the root folder of project for testing the ABISS web application.
 
 ## 🧰 Features:
  
@@ -45,15 +46,18 @@ This will run app in development mode.
 - **[face-api.js](https://github.com/justadudewhohacks/face-api.js/) face detection API**
 - **Other third party services like emailjs**
 
-## How to create descriptors profile
+## How to create new database profile
 
-This App uses descriptors profile of known faces (facial feature vector of 128 array of number) stored in JSON format as reference for face recognition. A sample profile of a visitors is located in folder `src/database/face_database.json`
+- This App uses descriptors profile of known faces (facial feature vector of 128 array of number) stored in JSON format as reference for face recognition. A sample profile of a visitors is located in folder `src/database/face_database.json`
+- Upload the photo for which you want to add in database to be recognised at **Photo Input** page of this application.
+- After the uploaded photo is detected by the app, we get an array of 128 number facial feature for the uploaded face(it is visible when we check the radio button for **show discriptors**).
+- Copy the array of 128 number facial feature and add it to our [database](https://github.com/Khushii-Arora/ABISS-MS-Engage22/blob/main/src/database/face_database.json) along with information like name, rollno,permission etc.
 
 ### JSON Profile
 
 The JSON profile contains visitors' nickname and array of 5-10 facial feature vector generate per visitor from sample photos. We don't store sample photos in the app to save processing time and optimize application size. You can create new descriptor (feature vector) by uploading photo to the app and check `Show Descriptors` to see the descriptor. If there're multiple faces detected in one photo, app will show all descriptors.
 
-JSON File Format:
+[JSON File](https://github.com/Khushii-Arora/ABISS-MS-Engage22/blob/main/src/database/face_database.json) Format:
 
 ```text
 {

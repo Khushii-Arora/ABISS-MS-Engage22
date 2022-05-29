@@ -29,7 +29,7 @@ export default class Home extends Component {
         >
 
         <div className="col-7">ABISS Web Application works on identifying and authorizing identify of people entering a building, making it a secured and monitored premises.
-             Once recognised, visitor's name will be displayed along with their permission status.
+             Once recognised, visitor's id number will be displayed along with their permission status.
              People are already listed in the database in the following status categories:
              <p> 
                       <ul style={{listStyle:'none'}}>
