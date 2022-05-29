@@ -77,7 +77,7 @@ class DrawBox extends Component {
                     transform: `translate(-3px,${_H}px)`
                   }}
                 >
-                  Welcome Roll no. {match[i]._label}
+                  Roll no. {match[i]._label} Identified
                   
                 </p>
               ) : null}
