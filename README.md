@@ -49,8 +49,8 @@ This will run app in development mode.
 ## How to create new database profile
 
 - This App uses descriptors profile of known faces (facial feature vector of 128 array of number) stored in JSON format as reference for face recognition. A sample profile of a visitors is located in folder `src/database/face_database.json`
-- Upload the photo for which you want to add in database to be recognised at **Photo Input** page of this application.
-- After the uploaded photo is detected by the app, we get an array of 128 number facial feature for the uploaded face(it is visible when we check the radio button for **show discriptors**).
+- Upload the photo for which you want to add record in database to be recognised at **Photo Input** page of this application.
+- After the uploaded photo is detected by the app, we get an array of 128 number facial feature for the uploaded face(it is visible when we check the check button for **show discriptors**).
 - Copy the array of 128 number facial feature and add it to our [database](https://github.com/Khushii-Arora/ABISS-MS-Engage22/blob/main/src/database/face_database.json) along with information like name, rollno,permission etc.
 
 ### JSON Profile
