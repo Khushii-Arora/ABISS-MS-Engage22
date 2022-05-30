@@ -9,7 +9,7 @@ Develop a browser-based application or a native mobile application to demonstrat
 **clone the repository:()**
 
 ```bash
-git clone https://github.com/Khushii-Arora/ABISS-Engage2022.git
+git clone https://github.com/Khushii-Arora/ABISS-MS-Engage22.git
 ```
 
 **In the project directory, you can run:**
