@@ -66,7 +66,7 @@ The JSON profile contains visitors' nickname and array of 5-10 facial feature ve
         "name": "nickname",
 	"permission": permission status,
       "descriptors": [
-      [FEATURE_VECTOR],...
+      [Facial_Feature_Vector],...
     ]
   },
   "id2": {
@@ -74,7 +74,7 @@ The JSON profile contains visitors' nickname and array of 5-10 facial feature ve
         "name": "nickname",
 	"permission": permission status,
     "descriptors": [
-      [FEATURE_VECTOR],...
+      [Facial_Feature_Vector],...
     ]
   },
   ...
@@ -84,5 +84,5 @@ The JSON profile contains visitors' nickname and array of 5-10 facial feature ve
 Note:
 
 - `id1`, `id2` are object keys to be referred by the App
-- `nickname` will be displayed when app recognizes the face
+- `rollno` will be displayed when app recognizes the face
 - `FEATURE_VECTOR` is array of 128 number facial feature known as `descriptor` in face-api.js
